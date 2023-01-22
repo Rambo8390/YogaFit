@@ -28,3 +28,15 @@
 .developer-info a {
  color: white;  
 }
+.about-image-container{
+    
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
