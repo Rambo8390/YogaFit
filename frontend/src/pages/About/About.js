@@ -2,6 +2,7 @@ import React from 'react'
 import sagnik from './sagnik.jpg';
 import lakshit from './lakshit.jpeg';
 import mihir from './mihir.jpeg';
+import prashant from './prashant.jpeg';
 import './About.css'
 
 export default function About() {
@@ -14,7 +15,7 @@ export default function About() {
                     We created this as a Major project, and We have also deployed this project
                     so people can use it and mainly the developers can who are learning AI can learn 
                     from this project and make their own AI or they can also improve in this project.
-                    This is an open source project, The code is available on the <a href="https://github.com/harshbhatt7585/YogaIntelliJ" style={{color:"black"}}>GitHub</a>. 
+                    This is an open source project, The code is available on the <a href="https://github.com/Rambo8390/YogaFit" style={{color:"black"}}>GitHub</a>. 
                     
                     This AI first predicts keypoints or coordinates of different parts of the body(basically where
                     they are present in an image) and then it use another classification model to classify the poses if 
@@ -43,7 +44,7 @@ export default function About() {
                                 <p style={{fontSize:"15px",color:"black",fontWeight:"600"}}>LAKSHIT SHAH</p>
                             </div>
                             <div className='about-image'>
-                            <img style={{height:"110px",width:"100px"}} src={sagnik}></img>
+                            <img style={{height:"110px",width:"100px"}} src={prashant}></img>
                                 <p style={{fontSize:"15px",color:"black",fontWeight:"600"}}>PRASANT SAW</p>
                             </div>
                         </div>
